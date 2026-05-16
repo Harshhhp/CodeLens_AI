@@ -7,6 +7,9 @@
 Understand any codebase instantly with intelligent AI-driven insights, architecture analysis, and repository summaries.
 
 <br />
+Live Demo
+
+https://code-lens-ai-iota.vercel.app
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge\&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Blue?style=for-the-badge\&logo=typescript)
