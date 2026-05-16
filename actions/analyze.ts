@@ -751,7 +751,7 @@ export async function getAnalysisById(id: string): Promise<
       data: {
         repoUrl: row.repoUrl,
         summary: row.summary,
-        issues: row.issues as FileIssue[],
+        issues: row.issues as unknown as FileIssue[],
         repositoryScore: {
           security: row.security,
           performance: row.performance,
