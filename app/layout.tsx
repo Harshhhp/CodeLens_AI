@@ -15,8 +15,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "CODELENS AI",
-  description: "AI-powered GitHub repository analysis platform",
+  title: "CodeLens AI - GitHub Repository Analyzer",
+  description:
+    "AI-powered tool to analyze GitHub repositories, understand codebases, architecture, and generate smart insights instantly.",
+  keywords: [
+    "CodeLens AI",
+    "GitHub analyzer",
+    "AI code review",
+    "repository analysis",
+    "codebase explainer",
+  ],
+  openGraph: {
+    title: "CodeLens AI",
+    description: "Analyze GitHub repositories using AI instantly",
+    url: "https://code-lens-ai-iota.vercel.app",
+    siteName: "CodeLens AI",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
